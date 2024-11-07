@@ -1,15 +1,59 @@
 <!DOCTYPE html>
-<html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>DOM</title>
-</head>
-<body>
-  <h1>Lista de Elementos</h1>
-    <ul id="lista"></ul>
-    <button id="agregar">Agregar Elemento</button>
-
-    <script src="./js/script.js"></script>
-</body>
+<html lang="sp">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./styles.css" rel="stylesheet" type="text/css" />
+    <title>Challenge U2S3</title>
+  </head>
+  <body>
+    <form action="post">
+      <fieldset>
+        <ul>
+          <p>
+            Bienvenidos, gracias por añadir sus datos, si no encuentra alguna
+            información en las listas, lo puede añadir pulsando el botón
+            agregar.
+          </p>
+          <label for="info">Entra sus datos</label>
+          <li>
+            <select name="nombre" id="nombre">
+              <option
+                value="nombre"
+                placeholder="nombre"
+                class="nombre"
+                required
+              >
+                Nombre
+              </option>
+            </select>
+            <button class="anadirNombre">Agregar</button>
+          </li>
+          <li>
+            <select name="email" id="email">
+              <option value="email" placeholder="email" required>Email</option>
+            </select>
+            <button class="anadirEmail">Agregar</button>
+          </li>
+          <li>
+            <select name="ciudad" id="ciudad">
+              <option value="ciudad" placeholder="ciudad" required>
+                Ciudad
+              </option>
+            </select>
+            <button class="anadirCiudad">Agregar</button>
+          </li>
+          <li>
+            <select name="aeropuerto" id="aeropuerto">
+              <option value="aeropuerto" placeholder="aeropuerto" required>
+                Aeropuerto más cercano
+              </option>
+            </select>
+            <button class="anadirAeropuerto">Agregar</button>
+          </li>
+        </ul>
+      </fieldset>
+    </form>
+    <script src="./script.js"></script>
+  </body>
 </html>

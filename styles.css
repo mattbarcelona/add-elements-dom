@@ -1,0 +1,34 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+  font-size: larger;
+}
+
+fieldset {
+  background-color: rgb(8, 208, 222);
+  border-radius: 10px;
+}
+p {
+}
+ul li {
+  list-style-type: none;
+}
+ul li {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+button {
+  width: 70px;
+  height: 30px;
+  border-radius: 10px;
+  background-color: darkblue;
+  color: white;
+  border: transparent solid;
+}
+select {
+  width: 200px;
+  height: 30px;
+}
